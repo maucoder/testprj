@@ -36,7 +36,7 @@ class TestList:
         self.obj = CalcNumbers()
 
     def test_addNumbers(self):
-        assert(self.obj.addNumbers(10, 20), 10 + 20)
+        assert(self.obj.addNumbers(10, 20) == (10 + 20))
 
     def test_divNumbers(self):
-        assert(self.obj.divNumbers(20, 10), 20 / 10)
+        assert(self.obj.divNumbers(20, 10) == (20 / 10))
