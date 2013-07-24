@@ -19,7 +19,8 @@ class CalcNumbers:
     def divNumbers(self, a, b):
         if (b == 0):
             return float("nan")
-        return a / b
+        # BUG!!!
+        return a / b + 1
 
 def main():
     obj = CalcNumbers()
